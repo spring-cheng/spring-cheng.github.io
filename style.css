@@ -94,14 +94,19 @@ a:hover {
 }
 
 .menu-links {
-  position: absolute;
-  top: 100%;
+  position: fixed;
   right: 0;
   background-color: white;
-  width: fit-content;
+  width: 100vw;
+  flex-direction: column;
+  list-style-type: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  opacity: 85%;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  transform: translateY(15%);
+  z-index: 100;
 }
 
 .menu-links a {
@@ -115,7 +120,13 @@ a:hover {
 }
 
 .menu-links li {
-  list-style: none;
+  border-image: linear-gradient(to right, transparent, #ccc, transparent) 1;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+
+.menu-links li:last-child {
+  border-bottom: none;
 }
 
 .menu-links.open {
