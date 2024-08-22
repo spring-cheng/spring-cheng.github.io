@@ -297,6 +297,7 @@ section {
 
 .about-pic {
   border-radius: 1.75rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .arrow {
@@ -311,6 +312,7 @@ section {
   background: white;
   border-radius: 1.75rem;
   border: rgb(53, 53, 53) 0.1rem solid;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
@@ -407,6 +409,7 @@ article .icon {
   border-radius: 1.75rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
